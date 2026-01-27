@@ -1,0 +1,42 @@
+# Robots.txt for Moshe Handyman - Optimized for GEO & SEO
+# Website: https://moshe-handyman.co.il
+# Last updated: January 2026
+
+# Allow all search engines full access
+User-agent: *
+Allow: /
+
+# Specific rules for major search engines and AI crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# AI Crawlers (ChatGPT, Gemini, Claude, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Sitemap location
+Sitemap: https://moshe-handyman.co.il/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1
