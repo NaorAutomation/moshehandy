@@ -6,7 +6,7 @@
 
     <!-- Homepage - Main landing page -->
     <url>
-        <loc>https://moshe-handyman.co.il/</loc>
+        <loc>https://naorautomation.github.io/moshehandy/</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
     <!-- Homepage with index.html -->
     <url>
-        <loc>https://moshe-handyman.co.il/index.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/index.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -22,7 +22,7 @@
 
     <!-- Painting Services Page -->
     <url>
-        <loc>https://moshe-handyman.co.il/painting-services.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/painting-services.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -30,7 +30,7 @@
 
     <!-- Rishon LeZion Location Page -->
     <url>
-        <loc>https://moshe-handyman.co.il/rishon-lezion.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/rishon-lezion.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
@@ -38,35 +38,35 @@
 
     <!-- Future location pages (placeholder for when they're created) -->
     <url>
-        <loc>https://moshe-handyman.co.il/beer-yaakov.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/beer-yaakov.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://moshe-handyman.co.il/ramla-lod.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/ramla-lod.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://moshe-handyman.co.il/ness-ziona.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/ness-ziona.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://moshe-handyman.co.il/rehovot.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/rehovot.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://moshe-handyman.co.il/holon-bat-yam.html</loc>
+        <loc>https://naorautomation.github.io/moshehandy/holon-bat-yam.html</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>

@@ -36,7 +36,7 @@ User-agent: Claude-Web
 Allow: /
 
 # Sitemap location
-Sitemap: https://moshe-handyman.co.il/sitemap.xml
+Sitemap: https://naorautomation.github.io/moshehandy/sitemap.xml
 
 # Crawl-delay for politeness (optional)
 Crawl-delay: 1
