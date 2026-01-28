@@ -665,65 +665,105 @@
                 <p data-aos="fade-up" data-aos-delay="100" class="text-brand-text mt-3 text-lg font-bold">ציון 10/10
                     עקבי במדד המקצוענים</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Review 1 -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <!-- Review Image 1 -->
                 <div data-aos="fade-up"
                     class="clean-card p-6 transform hover:-translate-y-2 transition-transform duration-300 relative">
                     <i class="fa-solid fa-quote-right text-4xl text-brand-primary/20 absolute top-6 right-6"></i>
-                    <div class="flex items-center gap-2 mb-4 text-brand-accent">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i>
+                    <div class="flex items-center gap-2 mb-4 text-brand-accent" aria-label="דירוג 5 כוכבים">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i
+                            class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i
+                            class="fa-solid fa-star" aria-hidden="true"></i>
                     </div>
-                    <p class="text-brand-text/80 mb-4 font-medium">"משה הגיע אלינו לדירה חדשה בבאר יעקב, התקין גופי
-                        תאורה בכל הבית ומקלחונים. עבודה מקצועית, נקייה ובמחיר הוגן. ממליצים בחום!"</p>
-                    <div class="font-bold text-brand-dark">- משפחת כהן, באר יעקב</div>
+                    <div class="rounded-2xl overflow-hidden border border-gray-100 bg-gray-50 relative">
+                        <button type="button"
+                            class="block w-full focus:outline-none focus:ring-4 focus:ring-brand-primary/20"
+                            onclick="openReviewModal('images/rec.jpeg','צילום מסך של המלצה בוואטסאפ')"
+                            aria-label="הגדל תמונת המלצה">
+                            <img src="images/rec.jpeg" alt="צילום מסך של המלצה בוואטסאפ" loading="lazy"
+                                class="w-full h-[520px] md:h-[520px] object-contain bg-white" />
+                            <span
+                                class="absolute bottom-4 left-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-primary text-white font-bold shadow-lg shadow-brand-primary/20">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i>
+                                הגדלה
+                            </span>
+                        </button>
+                    </div>
                 </div>
 
-                <!-- Review 2 -->
+                <!-- Review Image 2 -->
                 <div data-aos="fade-up" data-aos-delay="100"
                     class="clean-card p-6 transform hover:-translate-y-2 transition-transform duration-300 relative">
                     <i class="fa-solid fa-quote-right text-4xl text-brand-primary/20 absolute top-6 right-6"></i>
-                    <div class="flex items-center gap-2 mb-4 text-brand-accent">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i>
+                    <div class="flex items-center gap-2 mb-4 text-brand-accent" aria-label="דירוג 5 כוכבים">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i
+                            class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i
+                            class="fa-solid fa-star" aria-hidden="true"></i>
                     </div>
-                    <p class="text-brand-text/80 mb-4 font-medium">"הזמנתי את משה לצביעת חדר שינה. הוא עשה עבודה מדהימה!
-                        הקירות נראים חדשים לגמרי, והכל נשאר נקי ומסודר. תותח בצבע!"</p>
-                    <div class="font-bold text-brand-dark">- רועי, ראשון לציון</div>
+                    <div class="rounded-2xl overflow-hidden border border-gray-100 bg-gray-50 relative">
+                        <button type="button"
+                            class="block w-full focus:outline-none focus:ring-4 focus:ring-brand-primary/20"
+                            onclick="openReviewModal('images/rec1.jpeg','צילום מסך של המלצה בוואטסאפ')"
+                            aria-label="הגדל תמונת המלצה">
+                            <img src="images/rec1.jpeg" alt="צילום מסך של המלצה בוואטסאפ" loading="lazy"
+                                class="w-full h-[520px] md:h-[520px] object-contain bg-white" />
+                            <span
+                                class="absolute bottom-4 left-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-primary text-white font-bold shadow-lg shadow-brand-primary/20">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i>
+                                הגדלה
+                            </span>
+                        </button>
+                    </div>
                 </div>
 
-                <!-- Review 3 -->
+                <!-- Review Image 3 -->
                 <div data-aos="fade-up" data-aos-delay="200"
                     class="clean-card p-6 transform hover:-translate-y-2 transition-transform duration-300 relative">
                     <i class="fa-solid fa-quote-right text-4xl text-brand-primary/20 absolute top-6 right-6"></i>
-                    <div class="flex items-center gap-2 mb-4 text-brand-accent">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i>
+                    <div class="flex items-center gap-2 mb-4 text-brand-accent" aria-label="דירוג 5 כוכבים">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i
+                            class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i
+                            class="fa-solid fa-star" aria-hidden="true"></i>
                     </div>
-                    <p class="text-brand-text/80 mb-4 font-medium">"משה תלה לנו טלוויזיה בממ"ד. מאוד חששנו מהקירות אבל
-                        הוא עשה את זה בלי לקדוח החוצה ובצורה סופר בטיחותית. אלוף."</p>
-                    <div class="font-bold text-brand-dark">- שרה, נס ציונה</div>
-                </div>
-
-                <!-- Review 4 -->
-                <div data-aos="fade-up" data-aos-delay="300"
-                    class="clean-card p-6 transform hover:-translate-y-2 transition-transform duration-300 relative">
-                    <i class="fa-solid fa-quote-right text-4xl text-brand-primary/20 absolute top-6 right-6"></i>
-                    <div class="flex items-center gap-2 mb-4 text-brand-accent">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                            class="fa-solid fa-star"></i>
+                    <div class="rounded-2xl overflow-hidden border border-gray-100 bg-gray-50 relative">
+                        <button type="button"
+                            class="block w-full focus:outline-none focus:ring-4 focus:ring-brand-primary/20"
+                            onclick="openReviewModal('images/rec2.jpeg','צילום מסך של המלצה בוואטסאפ')"
+                            aria-label="הגדל תמונת המלצה">
+                            <img src="images/rec2.jpeg" alt="צילום מסך של המלצה בוואטסאפ" loading="lazy"
+                                class="w-full h-[520px] md:h-[520px] object-contain bg-white" />
+                            <span
+                                class="absolute bottom-4 left-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-primary text-white font-bold shadow-lg shadow-brand-primary/20">
+                                <i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i>
+                                הגדלה
+                            </span>
+                        </button>
                     </div>
-                    <p class="text-brand-text/80 mb-4 font-medium">"הרכיב לי ארון איקאה ענק ומסובך בשעתיים עבודה. יציב,
-                        חזק ומדויק. אין דברים כאלה. תודה רבה משה!"</p>
-                    <div class="font-bold text-brand-dark">- דניאל, רחובות</div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Review Image Modal -->
+    <div id="reviewModal" class="fixed inset-0 z-[999] hidden" aria-hidden="true">
+        <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="closeReviewModal()" aria-hidden="true"></div>
+        <div class="relative z-10 h-full w-full flex items-center justify-center p-4 md:p-8">
+            <div class="w-full max-w-5xl">
+                <div class="flex justify-end mb-3">
+                    <button type="button" onclick="closeReviewModal()"
+                        class="btn-modern bg-white text-brand-primary px-5 py-2 font-bold flex items-center gap-2 hover:bg-gray-100"
+                        aria-label="סגור חלון הגדלה">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                        סגור
+                    </button>
+                </div>
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-2xl">
+                    <img id="reviewModalImg" src="" alt=""
+                        class="w-full max-h-[85vh] object-contain bg-white" />
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Pricing -->
     <section id="pricing" class="py-24 bg-gray-50 relative">
@@ -753,8 +793,8 @@
                                 </li>
                                 <li
                                     class="flex justify-between items-center p-4 rounded-xl bg-gray-50 hover:bg-blue-50 transition-colors">
-                                    <span class="font-bold text-brand-text">הרכבת ארון (לדלת)</span>
-                                    <span class="font-bold text-brand-primary text-xl whitespace-nowrap">100-200
+                                    <span class="font-bold text-brand-text">הרכבת ארון</span>
+                                    <span class="font-bold text-brand-primary text-xl whitespace-nowrap">800
                                         ₪</span>
                                 </li>
                                 <li
@@ -1037,6 +1077,34 @@
                 icon.style.transform = 'rotate(180deg)';
             }
         }
+
+        // Review image modal
+        const reviewModal = document.getElementById('reviewModal');
+        const reviewModalImg = document.getElementById('reviewModalImg');
+
+        function openReviewModal(src, alt) {
+            if (!reviewModal || !reviewModalImg) return;
+            reviewModalImg.src = src;
+            reviewModalImg.alt = alt || 'תמונת המלצה';
+            reviewModal.classList.remove('hidden');
+            reviewModal.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeReviewModal() {
+            if (!reviewModal || !reviewModalImg) return;
+            reviewModal.classList.add('hidden');
+            reviewModal.setAttribute('aria-hidden', 'true');
+            reviewModalImg.src = '';
+            reviewModalImg.alt = '';
+            document.body.style.overflow = '';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && reviewModal && !reviewModal.classList.contains('hidden')) {
+                closeReviewModal();
+            }
+        });
     </script>
 </body>
 
